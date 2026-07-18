@@ -260,4 +260,8 @@ require("no-neck-pain").setup({
 -- ========================================================================================
 -- RENDER-MARKDOWN
 -- ========================================================================================
-require("render-markdown").setup({})
+require("render-markdown").setup({
+	html = { enabled = false },
+	latex = { enabled = false },
+	yaml = { enabled = false },
+})
